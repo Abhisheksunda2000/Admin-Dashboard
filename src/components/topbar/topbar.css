@@ -1,0 +1,34 @@
+.topbarContainer{
+    width:100%;
+    height:50px;
+    display:flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding:0 10px;
+}
+
+.topbarLeft{
+   flex:3.5;
+}
+
+.searchbar{
+    width:100%;
+    height:30px;
+    border-radius: 30px;
+}
+
+.searchInput{
+   width:70%;
+}
+
+.topbarCenter{
+   flex:6;
+}
+
+.topbarRight{
+   flex:0.5;
+}
+
+.deleteButton{
+    width:100%;
+}
