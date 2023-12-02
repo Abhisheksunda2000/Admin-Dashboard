@@ -1,0 +1,44 @@
+.dashbarEntry {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.5px solid #f0f0f0;
+    border-top: none;
+  }
+
+  .checkedEntry {
+    background-color: #f0f0f0; 
+  }
+
+  .checkedEntry > div{
+    background-color: #f0f0f0; 
+  }
+
+  .dashbarEntry > div{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .checkbox{
+    margin-right: 100px;
+  }
+
+  .edit{
+      margin-right: 5px;
+      cursor:pointer;
+      border: 1.5px solid #f0f0f0;
+  }
+
+  .delete{
+    color:red;
+    cursor:pointer;
+    border: 1.5px solid #f0f0f0;
+  }
+

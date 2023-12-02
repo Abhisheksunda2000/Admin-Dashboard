@@ -1,13 +1,12 @@
 import React from 'react'
-import Topbar from '../../components/topbar/Topbar';
 import Dashbar from '../../components/dashbar/Dashbar';
+import entries from '../../Data';
 import "./dashboard.css";
 
 export default function Dashboard() {
   return (
     <>   
-         <Topbar /> 
-         <Dashbar />
+         <Dashbar data = {entries}/>
     </>
   )
 }
